@@ -1,0 +1,109 @@
+/* 列表页专有 */
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    float: left;
+    margin: 15px 0 0 30px;
+}
+.sk_list ul li {
+    float: left;
+    text-align: center;
+    margin-left: 58px;
+}
+.sk_list ul li:nth-child(1) {
+    margin-left: 0;
+}
+.sk_list ul li a {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.sk_con {
+    float: left;
+    margin: 20px 0 0 0;
+}
+.sk_con ul li {
+    float: left;
+    margin-left: 48px;
+}
+.sk_con ul li a {
+    font-size: 12px;
+}
+.sk_con ul li:last-child a::after {
+    content: "";
+    font-family: "icomoon";
+  }
+/* 列表页主体部分 */
+.sk_bd {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.apple {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.apple:nth-child(4n) {
+    margin-right: 0;
+}
+.apple:hover{
+    border: 1px solid #e12228;
+}
+.apple_hd a img {
+    width: 290px;
+    height: 290px;
+}
+.apple_hd p {
+    margin: 10px 12px 0 12px;
+}
+.apple_miaosha {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e60012;
+    margin: 20px 0 0 12px;
+}
+.apple_origin {
+    font-size: 12px;
+    color: gray;
+    text-decoration: line-through;
+}
+.apple_jindu {
+    margin-top: 10px;
+}
+.apple_jindu p {
+    float: left;
+    margin-left: 12px;
+}
+.apple_jin {
+    float: left;
+    width: 132px;
+    height: 10px;
+    border: 1px solid #ed282e;
+    border-radius: 10px;
+    margin: 3px 0 0 15px;
+}
+.apple_du {
+    width: 87%;
+    height: 100%;
+    background-color: #ed282e;
+}
+.apple_bd {
+    width: 290px;
+    height: 55px;
+    margin-top: 38px;
+    background-color: #b1191a;
+    color: #f6eaea;
+    line-height: 55px;
+    text-align: center;
+    font-size: 18px;
+}
+      
+      

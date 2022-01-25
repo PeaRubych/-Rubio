@@ -1,0 +1,107 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo {
+    padding-top: 18px;
+}
+.registerarea {
+    height: 544px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 41px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+    line-height: 41px;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 0 12px 0 12px;
+}
+.login {
+    float: right;
+    font-size: 12px;
+}
+.login a {
+    color: #b1191a;
+}
+.reg_form {
+    width: 600px;
+    height: 100px;
+    margin: 50px auto 0;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ececec;
+}
+.error {
+    color: #df3033;
+}
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+}
+.safe {
+    padding-left: 164px;
+}
+.safe em {
+    padding: 0 12px;
+    color: #ffffff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 100px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    color: #38a8e8;
+}
+.bnt {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 30px 0 0 100px;
+}
+.mod-copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+.links{
+    margin-bottom: 15px;
+}
+.links a{
+    margin: 0 15px;
+    color: #6e6e6e;
+}
+.copyright{
+    line-height: 20px;
+}
